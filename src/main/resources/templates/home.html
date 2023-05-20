@@ -9,8 +9,8 @@
 <body>
 
 <div class="text-center">
-    <h2 class="display-4">Dependency Injection Lifetime
-    </h2>
+    <h1 class="pb-5 pt-2">Dependency Injection Examples
+    </h1>
 </div>
 <table class="table table-bordered">
     <thead>
@@ -22,17 +22,17 @@
     </thead>
     <tbody>
     <tr>
-        <td style="background-color: darksalmon">Request Scoped
+        <td style="background-color: beige">Request Scoped
         </td>
-        <td style="background-color: darksalmon" th:text="${RequestScope1}">
+        <td style="background-color: beige" th:text="${RequestScope1}">
         </td>
-        <td style="background-color: darksalmon" th:text="${RequestScope2}">
+        <td style="background-color: beige" th:text="${RequestScope2}">
         </td>
     </tr>
     <tr>
-        <td>Prototype Scoped</td>
-        <td th:text="${prototypeScope1}"></td>
-        <td th:text="${prototypeScope2}"></td>
+        <td style="background-color: #cecccc">Prototype Scoped</td>
+        <td style="background-color: #cecccc" th:text="${prototypeScope1}"></td>
+        <td style="background-color: #cecccc" th:text="${prototypeScope2}"></td>
     </tr>
     <tr>
         <td style="background-color: aquamarine">Singleton scoped
